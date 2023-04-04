@@ -1,13 +1,22 @@
 import { View, TextInput, Button } from 'react-native';
+import styles from './SignUpScreen/Styles';
 
 export default function SignUpScreen(){
     return(
         <View>
-            <View style={{marginBottom: 16}}>
-                <TextInput placeholder='First Name' />
-                <TextInput placeholder='Create A Username' textContentType='username' />
-                <TextInput placeholder='Create A Password' textContentType='password' />
-                <TextInput placeholder='Confirm Password' secureTextEntry={true} />
+            <View>
+                <View style={styles.inputs} >
+                    <TextInput placeholder='First Name' />
+                </View>
+                <View style={styles.inputs} >
+                    <TextInput placeholder='Create A Username' textContentType='username' />
+                </View>
+                <View style={styles.inputs} >
+                    <TextInput placeholder='Create A Password' textContentType='password' />
+                </View>
+                <View style={styles.inputs} >
+                    <TextInput placeholder='Confirm Password' secureTextEntry={true} />
+                </View>
             </View>
             <Button title='Sign Up' />
         </View>
