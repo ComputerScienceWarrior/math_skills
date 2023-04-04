@@ -1,9 +1,10 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import SignUpPage from './components/pages/sign_up_page';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Math Skills</Text>
+      <SignUpPage />
     </View>
   );
 }
@@ -14,5 +15,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    borderWidth: 8,
+    borderRadius: 5,
+    borderColor: 'navy'
   },
 });
