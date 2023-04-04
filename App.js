@@ -1,5 +1,5 @@
 import { StyleSheet, View } from 'react-native';
-import SignUpPage from './components/pages/sign_up_page';
+import SignUpPage from './components/pages/sign_up_page/sign_up_page';
 
 export default function App() {
   return (
