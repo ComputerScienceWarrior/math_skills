@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
+import { View, TextInput, Button } from 'react-native';
 
 export default function SignUpScreen(){
     return(
