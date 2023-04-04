@@ -6,5 +6,6 @@ export default styles = StyleSheet.create({
         borderColor: 'black',
         borderRadius: 10,
         padding: 5,
+        margin: 5
     }
 })
