@@ -1,5 +1,5 @@
 import { View, TextInput, Pressable, Text } from 'react-native';
-import styles from './SignUpScreen/Styles';
+import styles from './Styles';
 
 export default function SignUpScreen(){
     return(
