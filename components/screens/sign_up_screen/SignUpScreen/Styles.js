@@ -17,6 +17,7 @@ export default styles = StyleSheet.create({
         borderRadius: 4,
         elevation: 3,
         backgroundColor: 'navy',
+        marginTop: 20
     },
     signUpText: {
         fontSize: 20,
