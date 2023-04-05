@@ -18,7 +18,7 @@ export default function SignUpScreen(){
                     <TextInput placeholder='Confirm Password' secureTextEntry={true} />
                 </View>
             </View>
-            <Pressable style={styles.signUpButton} title='Sign Up' >
+            <Pressable style={styles.signUpButton} >
                 <Text style={styles.signUpText}>Sign Up</Text>
             </Pressable>
         </View>
