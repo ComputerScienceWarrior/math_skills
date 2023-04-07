@@ -6,7 +6,7 @@ export default function LoginPage(){
 
     return(
         <View>
-            <Text>Login</Text>
+            <Text style={styles.login}>Login</Text>
             <LoginScreen />
         </View>
     )
