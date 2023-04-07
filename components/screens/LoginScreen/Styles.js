@@ -9,7 +9,7 @@ export default styles = StyleSheet.create({
         margin: 5,
         width: 200
     },
-    signUpButton: {
+    loginButton: {
         alignItems: 'center',
         justifyContent: 'center',
         paddingVertical: 12,
@@ -17,8 +17,9 @@ export default styles = StyleSheet.create({
         borderRadius: 4,
         elevation: 3,
         backgroundColor: 'navy',
+        marginTop: 20
     },
-    signUpText: {
+    loginText: {
         fontSize: 20,
         color: 'white'
     }

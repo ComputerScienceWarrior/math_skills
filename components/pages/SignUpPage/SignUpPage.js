@@ -1,5 +1,5 @@
 import { Text, View } from 'react-native';
-import SignUpScreen from '../../screens/sign_up_screen/SignUpScreen';
+import SignUpScreen from '../../screens/SignUpScreen/SignUpScreen';
 import styles from './Styles';
 
 export default function SignUpPage(){
