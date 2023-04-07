@@ -1,10 +1,12 @@
 import { StyleSheet, View } from 'react-native';
 import SignUpPage from './components/pages/SignUpPage/SignUpPage';
+import LoginPage from './components/pages/LoginPage/LoginPage';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <SignUpPage />
+      {/* <SignUpPage /> */}
+      <LoginPage />
     </View>
   );
 }
