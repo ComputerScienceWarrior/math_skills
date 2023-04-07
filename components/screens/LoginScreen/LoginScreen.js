@@ -1,7 +1,7 @@
 import { View, TextInput, Pressable, Text } from 'react-native';
 import styles from './Styles';
 
-export default function Login(){
+export default function LoginScreen(){
     return(
         <View>
             <View>
